@@ -1,0 +1,25 @@
+.splash-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    text-align: center;
+}
+
+.splash-icon{
+    svg{
+        color: #3a405a;
+        margin-top: -18px;
+    }
+}
+
+.logo-text{
+    display: inline;
+}
+
+.animated{
+    animation-iteration-count: 3;
+    animation-delay: 1000ms;
+    animation-duration: 3s;
+}
+

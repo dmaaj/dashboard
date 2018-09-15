@@ -1,0 +1,47 @@
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 14px;
+}
+section{
+    margin-top: 30px;
+}
+.splash-screen{
+    height: calc(100vh - 55px);
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    padding-top: 30px;
+
+    .card{
+        border-radius: 20px;
+        background-color: #3a405a;
+        color: #fff;
+    }
+    .card-header{
+        padding-left: 30px;
+        border-bottom-color: #fff;
+    }
+}
+
+.dashboard-sidebar{
+    width: 15%;
+    color: #fff;
+    padding-left: 40px;
+    height: 100vh;
+}
+
+.dashboard-content{
+    width: 85%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
